@@ -1,5 +1,15 @@
 .page-header {
   &_container {
-    background-color: red;
+  }
+  &_background-image {
+    background-image: linear-gradient(0deg, @image-overlay 0%, @image-overlay 100%), url(../../img/index/index-background-desktop.png);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 50%;
+    width: 1044px;
+    height: 696px;
+    &::after {
+    }
   }
 }
