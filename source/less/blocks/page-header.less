@@ -1,11 +1,16 @@
 .page-header {
-  &_background-image {
+  display: flex;
+  flex-direction: column;
+  &__background-image {
     background-image: linear-gradient(0deg, @image-overlay 0%, @image-overlay 100%), url(../../img/index/index-background-desktop.png);
-    position: absolute;
+    // position: absolute;
     z-index: -1;
     top: 0;
     left: 50%;
     width: 1044px;
     height: 696px;
+  }
+  &__logo-full {
+    .visually-hidden
   }
 }

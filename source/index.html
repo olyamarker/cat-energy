@@ -11,11 +11,13 @@
 <body class="page__body">
   <header class="page-header">
     <div class="container">
-      <a class="logo-full page-header__logo">
-        <img src="img/logo-desktop.svg" width="202" height="59" alt="Логотип «Кэт Энерджи»">
+      <a class="page-header__logo">
+        <img class="logo-full page-header__logo-full" src="img/logo-desktop.svg" alt="Логотип «Кэт Энерджи»">
+        <img class="logo-small page-header__logo-small" src="img/logo-mobile.svg" alt="Логотип «Кэт Энерджи»">
+        <img class="logo-text page-header__logo-text" src="img/logo-text.svg" alt="Логотип «Кэт Энерджи»">
       </a>
+      <button class="page-header__menu-icon" type="button"><span class="visually-hidden">Открыть меню</span></button>
       <nav class="main-nav">
-        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item site-list__item--active">
@@ -37,7 +39,7 @@
         </div>
       </nav>
     </div>
-    <div class="page-header_background-image"></div>
+    <div class="page-header__background-image"></div>
   </header>
   <main class="page-main">
     <section class="promo">
